@@ -32,7 +32,7 @@ for i in range(10000):
     customers.append(customer)
 df= pd.DataFrame(customers)
 df.to_csv("data/raw/customers.csv", index=False)
-print(f"Generated {len(df)} customers and saved to CSV")
+
     
 
 
